@@ -1,0 +1,34 @@
+
+PDP QBUS front panel board BOM
+
+All resistors are 1/4w 5% (because I have a big box full of them)
+R1		open
+R2-3,6-7	470
+R4		3900
+R5		270k
+R8-9		680
+R10		zero ohms (jumper)
+
+C1		22pf. ceramic 50V NP0
+C2		10-60pf. variable .4 in. lead center
+C3-5		.1 50V MLC
+C6		10uf. 16V 
+
+D1		1N5711 Shottky diode
+D2		1N4148
+
+Q1-6		2N7000 N-channel MOSFET
+
+U1		SN74HCT14N or SN74HC14N
+U2		AT90S2313-10PC or ATtiny2313A-PU
+
+P1		4 pin .156 center molex KK 156 series
+P2		10 pin .100 center molex KK 100 series
+P3		2X5 pin breakaway header
+
+Y1		3.579545mhz. "color burst" crystal HC49 or HC49U case
+
+For R8-9 you may want a larger value. New LEDs are painfully bright
+
+I didn’t purchase any parts for this project. It all came from my “parts bin”
+Yes, I have a well stocked “parts bin”. I dont have actual part numbers.
